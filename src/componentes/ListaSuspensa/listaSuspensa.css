@@ -1,14 +1,11 @@
-.campo-escolha{
-    margin: 24px 0;
-}
-
-.campo-escolha label{
+.Lista_Suspensa label{
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
+
 }
 
-.campo-escolha select{
+.Lista_Suspensa select{
     background-color: ⁠fff;
     box-shadow: 10px 10px 30px rgba(0,0,0,0);
     width: 100%;
