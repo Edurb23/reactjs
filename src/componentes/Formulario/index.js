@@ -8,22 +8,11 @@ import './Formulario.css'
 
 const Formulario = (props) => {
 
-    const times = [
-        'Couter-Striker',
-        'Valorant',
-        'League of Legend',
-        'Rocket League',
-        'Rainbow Six Siege',
-        'Warzone',
-        'Overwatch',
-
-
-        
-    ]
+   
 
     const [nome, setNome] = useState('')
     const [funcao, setFuncao] = useState('')
-    const [imagem, setImagem] = useState('')
+     const [imagem, setImagem] = useState('')
     const [time, setTime] = useState('')
 
     const aoSalvar = (evento) => {
@@ -53,7 +42,7 @@ const Formulario = (props) => {
                 valor={funcao}
                 aoAlterado={valor => setFuncao(valor)}
                 />
-                <CampoTexto obrigatorio = 
+               <CampoTexto obrigatorio = 
                 {true}label="Imagem" 
                 placeholder="Digite o endereço da imagem..." 
                 valor={imagem}
@@ -61,7 +50,7 @@ const Formulario = (props) => {
                 />
                 <ListaSuspensa obrigatorio = {true} 
                 label = "Time" 
-                itens={times}
+                itens={props.times}
                 valor={time}
                 aoAlterado={valor => setTime(valor)}
                 />
