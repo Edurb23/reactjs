@@ -6,7 +6,7 @@ const Rodape = () => {
             <ul>
                 <li>
                     <a href="facebook.com" target="_blank">
-                        <img src="../img/fb.png" alt="logo do facebook" />
+                        <img src="/img/facebook.png" alt="logo do facebook" />
                     </a>
                 </li>
                 <li>
