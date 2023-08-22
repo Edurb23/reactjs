@@ -6,27 +6,27 @@ const Rodape = () => {
             <ul>
                 <li>
                     <a href="facebook.com" target="_blank">
-                        <img src="/img/facebook.png" alt="logo do facebook" />
+                        <img src="/imagens/fb.png" alt="" />
                     </a>
                 </li>
                 <li>
                     <a href="twitter.com" target="_blank">
-                        <img src="../img/tw.png" alt="logo do twitter" />
+                        <img src="/imagens/tw.png" alt="" />
                     </a>
                 </li>
                 <li>
                     <a href="instagram.com" target="_blank">
-                        <img src="../img/ig.png" alt="logo do instagram" />
+                        <img src="/imagens/ig.png" alt="" />
                     </a>
                 </li>
             </ul>
         </section>
         <section>
-            <img src="/img/logo.png" alt="" />
+            <img src="/imagens/logo.png" alt="" />
         </section>
         <section>
             <p>
-                Desenvolvido por Eduardo no curso Reactjs no alura .
+                Desenvolvido por Alura.
             </p>
         </section>
     </footer>)
