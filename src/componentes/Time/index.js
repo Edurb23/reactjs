@@ -9,12 +9,13 @@ const Time = (props) => {
     
     return(
         
-        <section className='time' style={fundo}>
+        (props.teammates.length > 0) ? <section className='time' style={fundo}>
          <h3 style={borda} >{props.nome}</h3>
-         <div className='colaboradores'>
-        {props.teammates.map(teammates => <Colaborador nome={teammates.nome} funcao={teammates.funcao} imagem={teammates.imagem} /> )}
+         <div className='colaboradores' >
+        {props.teammates.map(teammates => <Colaborador corDeFundo={props.corPrimaria} key={teammates.nome} nome={teammates.nome} funcao={teammates.funcao} imagem={teammates.imagem} /> )}
          </div>
         </section>
+        : ''
     )
     
 

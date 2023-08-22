@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Banner from './componentes/Banner';
 import Formulario from './componentes/Formulario';
 import Time from './componentes/Time';
+import Rodape from './componentes/Rodape';
 
 
 
@@ -30,7 +31,7 @@ function App() {
       corSecundaria: '#FDE7E8',
     },
     {
-      nome: 'League of Legend',
+      nome: 'League of Legends',
       corPrimaria: '#DB6EBF',
       corSecundaria: '#FAE9F5',
     },
@@ -50,7 +51,7 @@ function App() {
   const [teammates, setTeammate] = useState([])
 
   const aoTeammateCadastrado = (teammate) => {
-    console.log(teammate)
+    debugger
     setTeammate([...teammates, teammate])
 
   }
@@ -66,6 +67,7 @@ function App() {
       corSecundaria={time.corSecundaria}
       teammates={teammates.filter(teammates => teammates.time == time.nome)}
        />)}
+       <Rodape/>
       
       
     </div>
