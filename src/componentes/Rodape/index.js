@@ -26,7 +26,7 @@ const Rodape = () => {
         </section>
         <section>
             <p>
-                Desenvolvido por Alura.
+                Desenvolvido Eduardo Reis no curso ReactJs na Alura.
             </p>
         </section>
     </footer>)
