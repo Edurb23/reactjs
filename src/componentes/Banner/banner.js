@@ -4,7 +4,7 @@ export const Banner = () => {
    // JSX 
     return(
         <header className="banner">
-             <img src= "/img/banner.png" alt="O banner principal da pagina do Organo" />
+             <img src="/imagens/banner.png" alt="O banner principal da página do Organo"/>
         </header>
         
     )
